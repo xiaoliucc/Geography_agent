@@ -1,0 +1,41 @@
+{
+  "versions": [
+    {
+      "id": "renjiao",
+      "name": "人教版",
+      "priority": 1,
+      "books": [
+        {
+          "id": "必修第一册",
+          "name": "必修第一册",
+          "path": "processed/renjiao/必修第一册",
+          "status": "processed"
+        }
+      ]
+    },
+    {
+      "id": "lujiaoban",
+      "name": "鲁教版",
+      "priority": 2,
+      "books": []
+    },
+    {
+      "id": "xiangjiaoban",
+      "name": "湘教版",
+      "priority": 3,
+      "books": []
+    },
+    {
+      "id": "zhongtuban",
+      "name": "中图版",
+      "priority": 4,
+      "books": []
+    },
+    {
+      "id": "zhonghuashe",
+      "name": "中华社",
+      "priority": 5,
+      "books": []
+    }
+  ]
+}

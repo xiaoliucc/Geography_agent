@@ -1,0 +1,12 @@
+{
+  "teacher": {
+    "provider": "dashscope",
+    "model": "qwen-plus",
+    "temperature": 0.7
+  },
+  "quiz": {
+    "provider": "dashscope",
+    "model": "qwen-plus",
+    "temperature": 0.7
+  }
+}

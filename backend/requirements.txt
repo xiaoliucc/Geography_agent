@@ -1,0 +1,32 @@
+# Web framework
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# Vector DB
+chromadb>=0.4.0
+
+# LLM Providers
+dashscope>=1.0.0
+langgraph>=0.4.0
+langgraph-checkpoint-sqlite>=3.1.0
+langgraph-supervisor>=0.0.31
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-openai>=0.3.0
+
+# Web search
+tavily-python>=0.5.0
+
+# Map API (HTTP client)
+aiohttp>=3.9.0
+
+# Async SQLite (memory system)
+aiosqlite>=0.20.0
+
+# PDF processing (preserved from old project)
+pymupdf>=1.23.0
+
+# Logging
+# (using stdlib logging)
