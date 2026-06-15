@@ -9,6 +9,7 @@ fitz.TOOLS.mupdf_warnings(False)
 
 def classify(pdf_path: str) -> tuple[str, int, int]:
     """检测 PDF 类型 → (born_digital|mixed|scanned, text_pages, total)"""
+
     doc = fitz.open(pdf_path)
     total = len(doc)
     tp = sum(1 for p in doc if len(p.get_text().strip()) >= 100)
@@ -19,6 +20,7 @@ def classify(pdf_path: str) -> tuple[str, int, int]:
 
 def scan(textbook_dir: str) -> list[dict]:
     """批量扫描目录下所有 PDF 类型"""
+    
     results = []
     for root, _, files in os.walk(textbook_dir):
         for f in files:
